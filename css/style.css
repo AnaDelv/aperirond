@@ -1,0 +1,54 @@
+body{
+    background-image: url("new_year_background.png");
+}
+.contact {
+    height: 100px;
+    background-color: #CDE3EB;
+}
+
+.menu {
+    height: 50px;
+    background-color: #143A52;
+    color: whitesmoke;
+}
+
+#img_slider{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shadow {
+    box-shadow: 0px 1px 9px 2px #aaa;
+}
+.flex{
+    display: flex;
+}
+.center{
+    margin: auto;
+}
+.produits {
+    height: 300px;
+}
+h2{
+    text-align: center;
+}
+
+#logo{
+    height: 80px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.slogan{
+    font-size: 20px;
+}
+.compte{
+    height: 40px;
+    background-color: #6E828A;
+}
+.corps{
+    background-color: #F4F4F4;
+}
