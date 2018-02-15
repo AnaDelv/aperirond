@@ -4,7 +4,7 @@ $("#div_int").hide();
 
 
 function aff_comp(){
-	
+
 	$("#div_comp").show(0);
 	$("#div_form").hide(0);
 	$("#div_exp").hide(0);

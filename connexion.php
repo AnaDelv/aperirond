@@ -16,7 +16,19 @@
 </header>
 <section>
     <div class="container shadow corps">
-        Connexion
+        <form id="form" action="library/form.php" method="post">
+            <div class="form-group">
+                <input type="text" name="email" class="form-control" placeholder="Entrez votre email">
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="password" class="form-control" placeholder="Entrez votre mot de passe">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <p><a href="inscription.php">Vous n'avez pas de compte ? Inscrivez-vous !</a></p>
     </div>
 </section>
 </body>

@@ -16,19 +16,21 @@
 </header>
 <section>
     <div class="container shadow corps">
-        <div class="row">
-            <div class="col-12 center">
-                <form method="POST" action="register.php">
-                    <p>Votre pseudo:</p>
-                    <input type="text" name="username">
-                    <p>Votre password</p>
-                    <input type="password" name="password">
-                    <p>Répétez votre password</p>
-                    <input type="password" name="repeatpassword">
-                    <input type="submit" value="S'inscrire" name="submit">
-                </form>
+        <form action="library/form.php" method="post">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Entrez votre nom">
             </div>
-        </div>
+
+            <div class="form-group">
+                <input type="text" name="email" class="form-control" placeholder="Entrez votre email">
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="password" class="form-control" placeholder="Entrez votre mot de passe">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
     </div>
 </section>
 </body>

@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['login'])) {
+    header('Location: /connexion.php');
+} ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +16,7 @@
 </head>
 <body>
 <header>
-    <?php
-    include 'layout/bande_connexion.php';
+    <?php include 'layout/bande_connexion.php';
     include 'layout/menu.php';
     ?>
 </header>
