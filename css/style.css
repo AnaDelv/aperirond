@@ -30,25 +30,51 @@ body{
 }
 .produits {
     height: 300px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredoka One', cursive;
 }
-h2{
+h2 {
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 #logo{
     height: 80px;
     text-align: center;
 }
-.center{
+.center {
     text-align: center;
 }
-.slogan{
+.slogan {
     font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredoka One', cursive;
 }
-.compte{
+.compte {
     height: 40px;
     background-color: #6E828A;
 }
-.corps{
+.corps {
     background-color: #F4F4F4;
+}
+
+.menu {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+.coDeco {
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+p{
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Fredoka One', cursive;
+}
+.img_boutique{
+    height: 5%;
+    width: 5%;
 }

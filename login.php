@@ -1,7 +1,6 @@
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=aperobase', 'root', '');//ma base de donnée avec sa source
 session_start();//j'ai besoin d'utiliser le système de session donc j'appel la fonction
-
+$bdd = new PDO('mysql:host=localhost;dbname=aperobase', 'root', '');//ma base de donnée avec sa source
 if(isset($_POST['submit'])){//Si le formulaire est envoyé
     $username = htmlentities(trim($_POST["username"]));//on enregistre le nom d'utilisateur dans une variable php
     $password = htmlentities(trim($_POST["password"]));//on enregistre le mdp dans une variable php

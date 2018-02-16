@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset ="utf-8">
-    <title>Apero Rond-compte</title>
-    <meta name="description" content= "MA META DESC">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body>
+<?php include 'layout/header.php';?>
+
 <header>
     <?php
     include 'layout/bande_connexion.php';
@@ -19,4 +11,6 @@
        Compte
     </div>
 </section>
-</body>
+
+
+<?php include 'layout/footer.php';?>
