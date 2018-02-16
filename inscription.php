@@ -29,7 +29,7 @@
                 <input type="password" name="password" class="form-control" placeholder="Entrez votre mot de passe">
             </div>
 
-            <button type="submit" name="sign_in" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary">Send</button>
         </form>
     </div>
 </section>

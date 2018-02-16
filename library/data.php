@@ -1,19 +1,12 @@
 <?php
 include 'pdo.php';
-var_dump($_POST);
 extract($_POST);
 
+var_dump($_POST);
 
 if(isset($_POST['name'])) {
-    $bdd->exec("INSERT INTO utilisateur(id, nom, email, password) VALUES(1,'$name', '$email', '$password')");
+       $bdd->exec("INSERT INTO `client` (Nom, email, password) VALUES ('$name', '$email', '$password')");
 }
-
-
-//try {
-//    $bdd->exec("INSERT INTO utilisateur (nom, email, password) VALUES ('$name','$email','$password')");
-//} catch (PDOException $e) {
-//    pdoErrors();
-//}
 
 //finally {
 //    $pdo = null;

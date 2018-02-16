@@ -30,14 +30,17 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `client`;
 CREATE TABLE IF NOT EXISTS `client` (
-  `N°client` int(50) NOT NULL,
-  `Nom` varchar(50) NOT NULL,
-  `Prénom` varchar(50) NOT NULL,
-  `Ville` varchar(50) NOT NULL,
-  `CodePostal` int(20) NOT NULL,
-  `NomRue` varchar(50) NOT NULL,
-  `N°Rue` int(20) NOT NULL,
-  `Pays` varchar(50) NOT NULL
+  `id_client` int NOT NULL AUTO_INCREMENT,
+  `Nom` varchar(50),
+  `Prénom` varchar(50),
+  `email` varchar(50),
+  `password` VARCHAR(12),
+  `Ville` varchar(50),
+  `CodePostal` int(20),
+  `NomRue` varchar(50),
+  `N°Rue` int(20),
+  `Pays` varchar(50),
+  PRIMARY KEY (id_client)
 ) ENGINE=InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 -- --------------------------------------------------------
